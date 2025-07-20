@@ -44,6 +44,7 @@ You need to install the following libraries:
 
 pip install click requests validators
 
+```
 
 How to Run ?
 python cli-req.py
