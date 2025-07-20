@@ -1,59 +1,34 @@
-\# Click Request App
+# Click Request App
 
+A simple CLI app using Python `click` and `requests` libraries that:
 
-
-A simple Python CLI app that:
-
-
-
-\- Takes a URL from the user
-
-\- Validates the URL using `validators`
-
-\- Sends a GET request using `requests`
-
-\- Displays status code and optionally the response content
-
-
+- Takes a URL from the user
+- Validates the URL
+- Makes a GET request
+- Displays status code
+- Optionally shows the content of the response
 
 ---
 
+## 🔧 Dependencies
 
-
-\##  Dependencies
-
-
-
-You need to install the following libraries:
-
-
-
-\- `click`
-
-\- `requests`
-
-\- `validators`
-
-
-
-\### Install with pip:
-
-
+Install required libraries with:
 
 ```bash
-
 pip install click requests validators
 
 
 
 
 
-How to Run ?
+How to Run?
+Make sure you're in the project directory, then run:
 
+bash
+z
+Copy code
 python cli-req.py
 
-
-Author :
-
+Author
 Faeiz Hamdard
 
