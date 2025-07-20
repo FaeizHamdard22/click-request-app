@@ -24,9 +24,7 @@ pip install click requests validators
 How to Run?
 Make sure you're in the project directory, then run:
 
-bash
-z
-Copy code
+
 python cli-req.py
 
 Author
