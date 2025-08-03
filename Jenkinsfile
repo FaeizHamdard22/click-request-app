@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/FaeizHamdard22/click-request-app'
+                git branch: 'main', url:'https://github.com/FaeizHamdard22/click-request-app'
             }
         }
 
