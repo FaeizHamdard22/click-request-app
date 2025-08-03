@@ -2,21 +2,27 @@ pipeline {
     agent any
 
     stages {
+        stage('Checkout Code') {
+            steps {
+                git 'https://github.com/FaeizHamdard22/click-request-app'
+            }
+        }
+
         stage('Build') {
             steps {
-                echo '🔧 Building the project...'
+                sh 'echo "Building the app..."'
             }
         }
 
         stage('Test') {
             steps {
-                echo '🧪 Running tests...'
+                sh 'echo "Running tests..."'
             }
         }
 
         stage('Deploy') {
             steps {
-                echo '🚀 Deploying the application...'
+                sh 'echo "Deploying the app..."'
             }
         }
     }
