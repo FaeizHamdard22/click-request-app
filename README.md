@@ -10,7 +10,7 @@ A simple CLI app using Python `click` and `requests` libraries that:
 
 ---
 
-## 🔧 Dependencies
+##  Dependencies
 
 Install required libraries with:
 
@@ -20,7 +20,7 @@ pip install click requests validators
 
 ---
 
-## 🚀 How to Run?
+##  How to Run?
 
 Make sure you're in the project directory, then run:
 
